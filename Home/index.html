@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GymZone | Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #010101;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #f44336;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP_jzaAYcmBPtn6nBvgcim8338_-SPpbw-_w&s') no-repeat center center/cover;
+      color: #fff;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    .content {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .video-section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .video-section iframe {
+      width: 90%;
+      max-width: 700px;
+      height: 400px;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    footer {
+      background-color: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>GymZone</h1>
+    <p>Push Your Limits. Train Like a Beast.</p>
+  </header>
+
+  <nav>
+    <a href="/Home/index.html">Home</a>
+    <a href="/about/index.html">About</a>
+    <a href="/contact/index.html">Contact</a>
+  </nav>
+  <div class="hero">
+    <h1>Welcome to GymZone</h1>
+    <p>Your ultimate destination to get fit, stay strong and crush your goals.</p>
+  </div>
+
+  <div class="content">
+    <h2>Why Choose Us?</h2>
+    <p>We provide top-notch equipment, expert trainers and the energy to keep you going.</p>
+
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=800&q=80" alt="gym weights">
+      <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=800&q=80" alt="training">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP_jzaAYcmBPtn6nBvgcim8338_-SPpbw-_w&s" alt="training">
+    </div>
+  </div>
+
+  <div class="video-section">
+    <h2>Get Inspired</h2>
+    <p>Check out our motivation video to hype you up for your next session!</p>
+    <iframe src="https://www.youtube.com/embed/mgmVOuLgFB0" allowfullscreen></iframe>
+  </div>
+  
+
+  <footer>
+    <p>&copy; 2025 GymZone. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
