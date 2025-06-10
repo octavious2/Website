@@ -3,14 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Contact Us - Paw Friends</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        body {
+            background: pink;
+            color: black;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            background: #fff0f6;
+            padding: 1rem 0;
+            box-shadow: 0 2px 8px #f8bbd0;
+        }
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: color 0.2s;
+        }
+        .navbar a:hover {
+            color: #e91e63;
+        }
+        .container {
+            max-width: 500px;
+            margin: 2rem auto;
+            background: #fff0f6;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px #f8bbd0;
+            padding: 2rem;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 0.5rem;
+        }
+        .contact-info {
+            margin: 1.5rem 0;
+            font-size: 1.2rem;
+        }
+        .contact-info span {
+            display: block;
+            margin: 0.5rem 0;
+        }
+        .paw-img {
+            display: block;
+            margin: 2rem auto 0 auto;
+            max-width: 220px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px #e91e63;
+        }
+    </style>
 </head>
-<body style="background-color: black;">
-    <h1 style="color: aliceblue;">This is my Website</h1>
-    <h2>We provide a diverse order of services</h2>
-    <p>The main objective of this task was to get hands-on experience with Git and GitHub, 
-    including forking repositories, cloning them locally, syncing forks, making changes, 
-    fetching updates, handling merges, and submitting pull requests. This helped us understand 
-    core Git concepts and commands used in real-world collaboration workflows.</p>
+<body>
+    <nav class="navbar">
+        <a href="/Home/index.html">Home</a>
+        <a href="/contact/index.html">Contact</a>
+        <a href="/about/index.html">About</a>
+    </nav>
+    <div class="container">
+        <h1>Contact us for your paw friends!</h1>
+        <div class="contact-info">
+            <span>Phone: <b>067494784893</b></span>
+            <span>Phone: <b>895899082</b></span>
+        </div>
+        <img src="img.jpeg" alt="Paw Friends" class="paw-img">
+    </div>
 </body>
 </html>
